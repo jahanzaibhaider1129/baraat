@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Jahanzaib & Sidra | Wedding Invitation</title>
+
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="apple-touch-icon" href="images/favicon.png">
+
+
+<meta name="description"
+content="Join us in celebrating the wedding of Jahanzaib & Sidra on 20 September 2026.">
+
+<meta name="theme-color" content="#b8860b">
+
+<meta property="og:title"
+content="Jahanzaib & Sidra | Wedding Invitation">
+
+<meta property="og:description"
+content="Together with our families, we invite you to celebrate our wedding on 20 September 2026.">
+
+<meta property="og:image"
+content="https://jahanzaibhaider1129.github.io/baraat/images/share.jpg">
+
+<meta property="og:type"
+content="website">
+
+<meta property="og:url"
+content="https://jahanzaibhaider1129.github.io/baraat/">
+
+<meta name="twitter:card"
+content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <!-- LOADER -->
+<div id="loader">
+
+    <div class="loaderBox">
+
+        <div class="loaderRing"></div>
+
+        <h2>Jahanzaib ❤️ Sidra</h2>
+
+        <p>Preparing your invitation...</p>
+
+    </div>
+
+</div>
+<!-- =====================================
+     BACKGROUND MUSIC
+====================================== -->
+
+<audio id="bgMusic" loop preload="auto">
+    <source src="images/music.mp3" type="audio/mpeg">
+</audio>
+
+<button id="musicBtn">
+    ◖♫◗
+</button>
+<!-- =====================================
+     GOLD PARTICLES
+====================================== -->
+
+<div id="particles"></div>
+
+<!-- =====================================
+     INTRO SECTION
+====================================== -->
+
+<div id="intro">
+
+<section id="hero">
+
+<div id="background">
+
+<picture>
+    <source media="(max-width:600px)" srcset="images/welcome-mobile.png">
+    <source media="(max-width:1024px)" srcset="images/welcome-tablet.png">
+    <img id="bg1" src="images/welcome-laptop.png" alt="">
+</picture>
+
+
+<picture>
+    <source media="(max-width:600px)" srcset="images/welcome1-mobile.png">
+    <source media="(max-width:1024px)" srcset="images/welcome1-tablet.png">
+    <img id="bg2" src="images/welcome1-laptop.png" alt="">
+</picture>
+
+</div>
+
+<div id="gate">
+
+<div class="door left">
+
+<picture>
+<source media="(max-width:600px)" srcset="images/gate-mobile.png">
+<source media="(max-width:1024px)" srcset="images/gate-tablet.png">
+
+<img src="images/gate-laptop.png" alt="">
+</picture>
+
+</div>
+
+
+<div class="door right">
+
+<picture>
+<source media="(max-width:600px)" srcset="images/gate-mobile.png">
+<source media="(max-width:1024px)" srcset="images/gate-tablet.png">
+
+<img src="images/gate-laptop.png" alt="">
+</picture>
+
+</div>
+
+</div>
+
+<div id="tapText">
+
+Tap To Enter
+
+</div>
+<div id="scrollHint">
+    ♥︎ Scroll Up ♥︎
+</div>
+
+</section>
+
+</div>
+
+<!-- =====================================
+     MAIN CONTENT
+====================================== -->
+
+<main id="mainContent">
+
+<!-- =====================================
+     SAVE THE DATE
+====================================== -->
+
+<section id="saveDate">
+
+<div class="royal-bg"></div>
+
+<div class="light light1"></div>
+<div class="light light2"></div>
+<div class="light light3"></div>
+
+<div class="saveContent">
+
+<h1>SAVE THE DATE</h1>
+
+
+
+<!-- =============================
+     SCRATCH CARD
+============================= -->
+
+<div class="scratch-card">
+
+<div class="scratch-content">
+
+<div id="hiddenContent">
+
+<div class="inviteGlow"></div>
+
+<img
+src="images/couple.png"
+id="coupleBehind"
+alt="Bride and Groom"
+loading="lazy">
+
+<h2>YOU'RE INVITED</h2>
+
+<div class="goldLine"></div>
+
+<h3>20 September 2026</h3>
+
+<h4>Sunday</h4>
+
+</div>
+
+</div>
+
+<!-- GOLD FOIL -->
+
+<div id="foilLayer">
+
+<canvas id="foilCanvas"></canvas>
+
+<div class="foilText">
+
+Scratch Here
+
+</div>
+
+</div>
+
+<!-- FIREWORKS -->
+
+<canvas id="fxCanvas"></canvas>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================
+     LIVE COUNTDOWN
+====================================== -->
+
+<section id="countdownSection">
+
+<div class="royal-bg"></div>
+
+<div class="light light1"></div>
+<div class="light light2"></div>
+<div class="light light3"></div>
+
+<div class="countdownBox">
+
+<h1>The Wait Begins</h1>
+
+<h3>Counting down to forever</h3>
+
+<div id="countdown">
+
+<div class="timeBox">
+<span id="days">00</span>
+<label>Days</label>
+</div>
+
+<div class="timeBox">
+<span id="hours">00</span>
+<label>Hours</label>
+</div>
+
+<div class="timeBox">
+<span id="minutes">00</span>
+<label>Minutes</label>
+</div>
+
+<div class="timeBox">
+<span id="seconds">00</span>
+<label>Seconds</label>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =====================================
+     INVITATION
+====================================== -->
+
+<section id="invitation">
+  <div class="light light1"></div>
+<div class="light light2"></div>
+<div class="light light3"></div>
+
+<div class="invitation-card">
+
+<h2>Together With Our Families</h2>
+
+<p class="inviteText">
+
+Request the honour of your gracious presence as we celebrate the beginning of our forever.
+
+</p>
+
+<div class="details">
+
+<div class="detailBox">
+<h2>Baraat Celebration</h2>
+<p>
+<b>Date</b><br>
+20 September 2026
+</p>
+<p>
+<b>Time</b><br>
+8:30 PM
+</p>
+<p>
+<b>Venue</b><br>
+The Continental Luxury Banquet
+</p>
+
+</div>
+
+<div class="detailBox">
+
+<h3>A Gentle Request</h3>
+
+<p>
+Please refrain from personal photography
+to ensure the bride's privacy and allow
+everyone to enjoy this beautiful moment
+with respect and grace.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =====================================
+     OUR STORY
+====================================== -->
+
+<section id="ourStory">
+
+    <div class="royal-bg"></div>
+
+    <div class="light light1"></div>
+    <div class="light light2"></div>
+    <div class="light light3"></div>
+
+    <div class="storyCard fadeUp">
+
+        <h4>
+            Every Love Story Is Beautiful,<br>
+            But Ours Is Heart Warming
+        </h4>
+
+        <div class="storyLine"></div>
+
+        <div class="urduStory">
+            <p>اللہ نے لکھی، مشہدِ مقدس نے سنواری  </p>
+            <p>اہلِ بیتؑ کے سائے میں اِسے ہے نکھاری</p>
+            <p> یہ محبت کوئی عام افسانہ نہیں ہے</p>
+            <p>یہ دعا ہے، عبادت ہے، بندگی کی نشانی</p>
+        </div>
+
+        <div class="storyLine"></div>
+
+        <p class="englishStory">
+            Written by Allah in the holy land of Mashhad Al-Muqaddas,<br>
+            Witnessed by Ahl-e-Bait (A.S.), sealed with His Noor.<br><br>
+
+            Our Nikkah of hearts was witnessed by our loved ones.<br><br>
+
+            May our bond remain forever connected.<br>
+            May our love remain under His protection.<br>
+            Far from every evil eye,<br>
+            Close to His endless blessings<br>
+            and the sacred light of Aima-e-Tahireen (A.S.).<br><br>
+
+            <strong>Ameen Ya Rabbul Alameen 🤲</strong>
+        </p>
+
+    </div>
+
+</section>
+
+<!-- =====================================
+     VENUE
+====================================== -->
+
+<section id="venue">
+
+<div class="royal-bg"></div>
+
+<div class="light light1"></div>
+<div class="light light2"></div>
+<div class="light light3"></div>
+
+<div class="venueWrapper fadeUp">
+
+<h2>VENUE</h2>
+
+<div class="storyLine"></div>
+
+<!-- =========================
+Venue 1
+========================= -->
+
+<div class="venueCard">
+
+<div class="venueTitle">
+📍 The Continental Luxury Banquet
+</div>
+
+<p class="venueAddress">
+Gulistan-e-Johar, Karachi
+</p>
+
+<div class="mapBox">
+
+<iframe
+src="https://www.google.com/maps?q=The+Continental+Luxury+Banquet+Karachi&output=embed"
+loading="lazy"
+allowfullscreen
+referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+</div>
+<a
+class="mapBtn"
+href="https://www.google.com/maps/search/?api=1&query=The+Continental+Luxury+Banquet+Karachi"
+target="_blank">
+
+View Location
+
+</a>
+</div>
+
+</div>
+
+</section>
+
+<!-- =====================================
+     RSVP
+====================================== -->
+
+<section id="rsvp">
+
+<div class="royal-bg"></div>
+
+<div class="light light1"></div>
+<div class="light light2"></div>
+<div class="light light3"></div>
+
+<div class="rsvpCard fadeUp">
+
+<h2>RSVP</h2>
+
+<h4>We would be honored by your presence</h4>
+
+<div class="storyLine"></div>
+
+<form id="rsvpForm">
+
+<input
+type="text"
+id="guestName"
+placeholder="Your Name"
+required>
+
+<input
+type="tel"
+id="guestPhone"
+placeholder="Phone Number"
+required>
+
+<select id="guestCount">
+
+<option value="1">Only Me</option>
+
+<option value="2">Me + 1</option>
+
+<option value="3">Me + Family</option>
+
+</select>
+
+<select id="attendance">
+
+<option value="Will Attend">
+Will Attend
+</option>
+
+<option value="Regretfully Decline">
+Regretfully Decline
+</option>
+
+</select>
+
+<textarea
+id="guestMessage"
+rows="4"
+placeholder="Leave your blessings or message...">
+</textarea>
+
+<button
+type="button"
+id="sendRSVP">
+
+Send RSVP
+
+</button>
+
+</form>
+
+</div>
+
+</section>
+<!-- =====================================
+     RSVP SUCCESS POPUP
+====================================== -->
+
+<div id="rsvpPopup">
+
+<div class="popupCard">
+
+<div class="popupCheck">
+
+✓
+
+</div>
+
+<h2>Thank You</h2>
+
+<p>
+
+Your RSVP is ready.
+
+Redirecting to WhatsApp...
+
+</p>
+
+</div>
+
+</div>
+
+
+<!-- =====================================
+     THANK YOU
+====================================== -->
+
+<section id="thankYou">
+
+    <div class="royal-bg"></div>
+    <div class="light light1"></div>
+    <div class="light light2"></div>
+    <div class="light light3"></div>
+
+    <div class="thankYouCard fadeUp">
+
+        <h2>We Can't Wait To Celebrate With You</h2>
+
+        <div class="thankDivider"></div>
+
+        <p>
+            Your presence will make our special day even more meaningful.
+            We look forward to creating beautiful memories together.
+        </p>
+
+        <div class="thankSignature">
+            With Love ❤
+            <span>Jahanzaib &amp; Sidra</span>
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+<!-- =====================================
+     FOOTER
+====================================== -->
+
+<footer>
+
+Made with ❤ for our beloved family & friends
+<br><br>
+© 2026 Jahanzaib & Sidra
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+
+</html>
