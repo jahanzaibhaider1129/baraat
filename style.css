@@ -315,6 +315,27 @@ SCROLL DOWN HINT
         scrollGlow 2.5s infinite;
 }
 
+.saveScrollHint{
+    position:absolute;
+    bottom:35px;
+    left:50%;
+    transform:translateX(-50%);
+    z-index:6000;
+
+    font-family:"Cinzel",serif;
+    font-size:17px;
+    letter-spacing:3px;
+    color:#fff6cf;
+
+    text-shadow:
+        0 0 12px gold,
+        0 0 25px rgba(255,215,0,.4);
+
+    animation:
+        scrollBounce 1.6s infinite,
+        scrollGlow 2.5s infinite;
+}
+
 #scrollHint.show{
     opacity:1;
     transition:opacity .8s;

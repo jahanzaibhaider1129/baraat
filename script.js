@@ -730,7 +730,7 @@ if (top < window.innerHeight * 0.6) {
 ==================================================*/
 
 const weddingDate = new Date(
-"September 20, 2026 08:00:00"
+"September 20, 2026 00:00:00"
 ).getTime();
 
 const daysEl = document.getElementById("days");
